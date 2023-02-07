@@ -41,7 +41,7 @@ p {
 }
 
 .container-header {
-    background: linear-gradient(to bottom, black, #cd7d7d, #f4e3d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to bottom, black, #cd7d7d, #f4e3d9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: black;
     text-align: center;
     width: 100%; 
@@ -51,8 +51,8 @@ p {
 }
 
 .container-header--logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 3rem;
 }
 
@@ -136,11 +136,6 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex;
-    flex-direction: column; */
-    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
-    /* display: grid;
-    place-content: center; */
 }
 .titulo {
     font-size: 60px;
@@ -227,3 +222,25 @@ p {
     background: #36221c;
 }
 /* ------------------------------------CARROUSEL--------------------- */
+
+/* ------------------ARREGLO ROSA------------------------- */
+.container-video video{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+/* .container-video video{
+    width: 300px;
+    height: 300px;
+    position: relative;
+} */
+/*.container-img{
+    position: absolute;
+     top: -20;
+    right: 0; 
+}*/
+.container-img img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
