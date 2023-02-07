@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rosa-header: #cd7d7d;
+    --palo-de-rosa: #f4e3d9;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: black;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-header--logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 4rem;
+}
+
+.container-header--texto{
+    background-color: var(--rosa-header);
+    width: 100%;
+    height: 10rem;
+    /* padding: 2rem; */
+    /* margin-top: 2rem; */
+}
+
+.container-header--img{
+    width: 230px;
+    height: 230px;
+    margin-top: 5rem;
+}
+
+/* -------------------------ARTESANAL-------------------------- */
+.container-artesanal {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(../img/fondo_artesanal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
+    display: grid;
+    place-content: center;
+}
+.container-artesanal h2{
+    /* margin-top: 8rem; */
+    padding-right: 1rem;
+} 
+.container-artesanal img{
+    width: 100%;
+    height: 250px;
+    margin-top: 3rem;
+}
+
+/* -----------------------------CATALOGO------------------------------- */
+
+.container-catalogo {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(../img/fondo_catalogo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column; */
+    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
+    /* display: grid;
+    place-content: center; */
+}
+/* .container-catalogo h1{
+} */
+.container-regala_flores {
+    width: 100%;
+    /* min-width: 320px; */
+    /* height: 100vh;
+    background-image: url(./img/regala_flores.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: black;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
+    /* display: grid;
+    place-content: center; */
+}
+.container-regala_flores h1{
+    color: var(--rosa-header);
+    padding-top: 5rem;
+    /* text-align: center; */
+}
+.container-regala_flores img{
+    width: 70%;
+    height: auto;
+    /* margin-top: 2rem; */
+}
+
+/* --------------------PROMOCION-------------------- */
+.container-promocion{
+    width: 100%;
+    /* min-width: 320px; */
+    height: 100vh;
+    background-image: url(../img/fondo_artesanal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column; */
+     /* justify-content: space-around;  */
+    /* align-items: center; */
+    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
+    display: grid;
+    place-content: center;
+}
+.container-rosa{
+    width: 220px;
+    height: 420px;
+    /* height: 70vh; */
+    background-color: var(--palo-de-rosa);
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    display: grid;
+    place-content: center;
+}
+.container-rosa img{
+    width: 50px;
+    height: 50px;
+}
+
+/* ----------------------------------CARROUSEL---------------------- */
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #fff;
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+/* ESTILOS DE MATERIALIZE */
+.container{
+    width: 100%;
+    /* min-width: 320px; */
+    height: 100vh;
+    background-image: url(../img/fondo_artesanal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel {
+    min-height: 500px;
+}
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* user-select: none; */
+    width: 500px;
+    height: 500px;
+}
+.carousel .carousel-item img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+.carousel .indicators {
+    padding-bottom: 3px;
+}
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #36221c;
+}
+/* ------------------------------------CARROUSEL--------------------- */
