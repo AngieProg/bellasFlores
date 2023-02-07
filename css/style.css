@@ -88,6 +88,7 @@ p {
 .container-artesanal h2{
     /* margin-top: 8rem; */
     padding-right: 1rem;
+    line-height: 1.5;
 } 
 .container-artesanal img{
     width: 100%;
@@ -108,8 +109,8 @@ p {
     place-content: center;
 }
 .container-rosa{
-    width: 250px;
-    height: 500px;
+    width: 95%;
+    height: 600px;
     padding: 0 2rem;
     background-color: var(--palo-de-rosa);
     display: grid;
