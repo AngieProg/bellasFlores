@@ -93,51 +93,6 @@ p {
     margin-top: 3rem;
 }
 
-/* -----------------------------CATALOGO------------------------------- */
-
-.container-catalogo {
-    width: 100%;
-    min-width: 320px;
-    height: 100vh;
-    background-image: url(../img/fondo_catalogo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* display: flex;
-    flex-direction: column; */
-    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
-    /* display: grid;
-    place-content: center; */
-}
-/* .container-catalogo h1{
-} */
-.container-regala_flores {
-    width: 100%;
-    /* min-width: 320px; */
-    /* height: 100vh;
-    background-image: url(./img/regala_flores.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-    background-color: black;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
-    /* display: grid;
-    place-content: center; */
-}
-.container-regala_flores h1{
-    color: var(--rosa-header);
-    padding-top: 5rem;
-    /* text-align: center; */
-}
-.container-regala_flores img{
-    width: 70%;
-    height: auto;
-    /* margin-top: 2rem; */
-}
-
 /* --------------------PROMOCION-------------------- */
 .container-promocion{
     width: 100%;
@@ -172,8 +127,22 @@ p {
 }
 
 /* ----------------------------------CARROUSEL---------------------- */
+.container-catalogo {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(../img/fondo_catalogo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column; */
+    /*Centramos el contenido verticalmente para que queden los mismos espacios arriba y abajo*/
+    /* display: grid;
+    place-content: center; */
+}
 .titulo {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 40px;
     color: black;
@@ -199,7 +168,7 @@ p {
 }
 
 .linea-division {
-    width: 80%;
+    width: 60%;
     height: 2px;
     background-color: #36221c;
 }
